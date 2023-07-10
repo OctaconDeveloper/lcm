@@ -5,8 +5,8 @@
 <head>
     <title>{{ env('APP_NAME') }}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
-    <link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assets/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="kt_body" class="auth-bg">
@@ -17,7 +17,7 @@
 
             <div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20">
                 <a href="/" class="mb-12">
-                    <img alt="Logo" src="{{ asset('assets/media/logos/logo.png') }}" class="h-60px" />
+                    <img alt="Logo" src="https://lcm.up.railway.app/assets/media/logos/logo.png" class="h-60px" />
                 </a>
                 <div class="w-lg-500px bg-white rounded shadow-sm p-10 p-lg-15 mx-auto">
                     @yield('content')
@@ -33,9 +33,9 @@
         </div>
     </div>
 
-    <script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
-    <script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
-    <script src="{{ asset('assets/js/custom/authentication/sign-in/general.js') }}"></script>
+    <script src="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="https://lcm.up.railway.app/assets/js/scripts.bundle.js"></script>
+    <script src="https://lcm.up.railway.app/assets/js/custom/authentication/sign-in/general.js"></script>
 </body>
 
 </html>
