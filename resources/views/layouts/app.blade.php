@@ -5,20 +5,20 @@
 <head>
     <title>{{ env('APP_NAME') }}</title>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.ico') }}" />
+    <link rel="shortcut icon" href="https://lcm.up.railway.app/assets/media/logos/favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
 
-    <link href="{{ asset('assets/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assets/plugins/custom/vis-timeline/vis-timeline.bundle.css') }}" rel="stylesheet"
+    <link href="https://lcm.up.railway.app/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet"
         type="text/css" />
-    <link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assets/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="{{ asset('assets/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet"
+    <link href="https://lcm.up.railway.app/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet"
         type="text/css" />
 
-    <link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assets/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm.up.railway.app/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
     
 

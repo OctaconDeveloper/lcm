@@ -8,7 +8,7 @@
                         <div class="card-body">
                             <div class="d-flex flex-center flex-column py-5">
                                 <div class="symbol symbol-100px symbol-circle mb-7">
-                                    <img src="{{ asset('assets/media/avatars/300-1.jpg') }}" alt="image" />
+                                    <img src="https://lcm.up.railway.app/assets/media/avatars/300-1.jpg" alt="image" />
                                 </div>
                                 <a href="#" class="fs-3 text-gray-800 text-hover-primary fw-bolder mb-3">
                                     {{ ucfirst($user->rank) }} {{ ucfirst($user->firstname) }} {{ ucfirst($user->lastname) }}

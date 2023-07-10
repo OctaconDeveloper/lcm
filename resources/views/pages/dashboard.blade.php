@@ -197,7 +197,7 @@
                                     <!--begin::Item-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Flag-->
-                                        <img src="{{ asset('assets/media/logos/logo.png') }}" class="me-4 w-25px"
+                                        <img src="https://lcm.up.railway.app/assets/media/logos/logo.png" class="me-4 w-25px"
                                             style="border-radius: 4px" alt="" />
                                         <!--end::Flag-->
 

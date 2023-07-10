@@ -9,10 +9,10 @@
 </div>
 
 
-<script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
-<script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
+<script src="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/scripts.bundle.js"></script>
 
-<script src="{{ asset('assets/plugins/custom/vis-timeline/vis-timeline.bundle.js') }}"></script>
+<script src="https://lcm.up.railway.app/assets/plugins/custom/vis-timeline/vis-timeline.bundle.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
@@ -27,26 +27,22 @@
 <!--end::Page Vendors Javascript-->
 
 <!--begin::Page Custom Javascript(used by this page)-->
-<script src="{{ asset('assets/js/widgets.bundle.js') }}"></script>
-<script src="{{ asset('assets/js/custom/widgets.js') }}"></script>
-<script src="{{ asset('assets/js/custom/intro.js') }}"></script>
-<script src="{{ asset('assets/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
-<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/type.js') }}"></script>
-<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/details.js') }}"></script>
-<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/finance.js') }}"></script>
-<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/complete.js') }}"></script>
-<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/main.js') }}"></script>
+<script src="https://lcm.up.railway.app/assets/js/widgets.bundle.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/widgets.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/intro.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
 <!--end::Page Custom Javascript-->
 
 
-{{-- <!--begin::Global Javascript Bundle(used by all pages)-->
-<script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
-<script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
-<!--end::Global Javascript Bundle--> --}}
 
 
-<script src="{{ asset('assets/plugins/custom/datatables/datatables.bundle.js') }}"></script>
-<script src="{{ asset('assets/js/custom/apps/user-management/users/list/table.js') }}"></script>
-<script src="{{ asset('assets/js/custom/apps/user-management/users/list/export-users.js') }}"></script>
-<script src="{{ asset('assets/js/custom/apps/user-management/users/list/add.js') }}"></script>
+<script src="https://lcm.up.railway.app/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/apps/user-management/users/list/table.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/apps/user-management/users/list/export-users.js"></script>
+<script src="https://lcm.up.railway.app/assets/js/custom/apps/user-management/users/list/add.js"></script>
 
