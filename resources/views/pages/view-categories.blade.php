@@ -17,7 +17,7 @@
 
             <div class="card">
                 <!--begin::Card header-->
-                <h1 class="fs-2hx fw-bold text-gray-800 me-2 lh-1 pl-2" style="padding: 10px"> Parcel Categories </h1>
+                <h1 class="fs-2hx fw-bold text-gray-800 me-2 lh-1 pl-2" style="padding: 10px"> Materials </h1>
                 <div class="card-header border-0 pt-6">
                     <!--begin::Card title-->
                     <div class="card-title">
@@ -123,7 +123,7 @@
                                             <rect x="4.36396" y="11.364" width="16" height="2"
                                                 rx="1" fill="currentColor" />
                                         </svg></span>
-                                    Add Category
+                                    Add Material
                                 </button>
                             @endif
                         </div>
@@ -151,7 +151,7 @@
                                     <!--begin::Modal header-->
                                     <div class="modal-header" id="kt_modal_add_user_header">
                                         <!--begin::Modal title-->
-                                        <h2 class="fw-bolder">Add Catgeory</h2>
+                                        <h2 class="fw-bolder">Add Material</h2>
 
                                         <div class="btn btn-icon btn-sm btn-active-icon-primary"
                                             data-kt-users-modal-action="close" style="display: none">
@@ -185,15 +185,15 @@
 
                                                 <!--begin::Input group-->
                                                 <div class="fv-row mb-7">
-                                                    <label class="required fw-bold fs-6 mb-2">Category Name</label>
+                                                    <label class="required fw-bold fs-6 mb-2">Material Name</label>
                                                     <input type="text" name="name"
                                                         class="form-control form-control-solid mb-3 mb-lg-0"
-                                                        placeholder="Category Name" />
+                                                        placeholder="Material Name" />
                                                 </div>
                                                 <div class="fv-row mb-7">
                                                     <label class="required fw-bold fs-6 mb-2">Description</label>
                                                     <textarea name="description" class="form-control form-control-solid mb-3 mb-lg-0"
-                                                        placeholder="Enter category description" rows="7" style="resize:none"></textarea>
+                                                        placeholder="Enter material description" rows="7" style="resize:none"></textarea>
                                                 </div>
                                             </div>
 
@@ -236,7 +236,7 @@
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-5px pe-2"> SN </th>
                                 <th class="min-w-5px"></th>
-                                <th class="min-w-125px">Category Name</th>
+                                <th class="min-w-125px">Material Name</th>
                                 <th class="min-w-125px">Code</th>
                                 <th class="min-w-125px">Description</th>
                                 <th class="min-w-25px">Date Added</th>

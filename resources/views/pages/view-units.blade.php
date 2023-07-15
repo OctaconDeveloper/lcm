@@ -105,7 +105,7 @@
                                             data-kt-menu-dismiss="true" data-kt-user-table-filter="reset">
                                             Reset
                                         </button>
-                                        <button type="submit" class="btn btn-primary fw-bold px-6"
+                                        <button type="submit" class="btn btn-army fw-bold px-6"
                                             data-kt-menu-dismiss="true" data-kt-user-table-filter="filter">
                                             Apply
                                         </button>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                             @if(auth()->user()->role == 'admin')
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-army" data-bs-toggle="modal"
                                     data-bs-target="#kt_modal_add_user">
                                     <span class="svg-icon svg-icon-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none">

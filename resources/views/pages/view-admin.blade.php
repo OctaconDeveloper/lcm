@@ -8,7 +8,7 @@
                         <div class="card-body">
                             <div class="d-flex flex-center flex-column py-5">
                                 <div class="symbol symbol-100px symbol-circle mb-7">
-                                    <img src="https://lcm.up.railway.app/assets/media/avatars/300-1.jpg" alt="image" />
+                                    <img src="https://lcm.up.railway.app/assets/media/logos/logo.png" alt="image" />
                                 </div>
                                 <a href="#" class="fs-3 text-gray-800 text-hover-primary fw-bolder mb-3">
                                     {{ ucfirst($user->rank) }} {{ ucfirst($user->firstname) }} {{ ucfirst($user->lastname) }}
@@ -205,7 +205,7 @@
                                                     Discard
                                                 </button>
 
-                                                <button type="submit" class="btn btn-primary"
+                                                <button type="submit" class="btn btn-army"
                                                     data-kt-users-modal-action="submit">
                                                     <span class="indicator-label"> Submit </span>
                                                 </button>
@@ -220,7 +220,7 @@
                             <div class="card pt-4 mb-6 mb-xl-9">
                                 <div class="card-header border-0">
                                     <div class="card-title">
-                                        <h2>Admin Logs</h2>
+                                        <h2>NA Vendor Logs</h2>
                                     </div>
                                     <div class="card-toolbar">
                                     </div>

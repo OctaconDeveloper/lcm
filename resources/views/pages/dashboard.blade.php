@@ -185,7 +185,7 @@
                             <div class="card-header pt-7 mb-5">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bolder text-gray-800">Shipments by Category </span>
+                                    <span class="card-label fw-bolder text-gray-800">Shipments by Material </span>
                                 </h3>
                             </div>
                             <!--end::Header-->
