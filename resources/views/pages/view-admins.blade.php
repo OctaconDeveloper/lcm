@@ -19,7 +19,7 @@
 
             <div class="card">
                 <!--begin::Card header-->
-                <h1 class="fs-2hx fw-bold text-gray-800 me-2 lh-1 pl-2" style="padding: 10px"> NA Vendors </h1>
+                <h1 class="fs-2hx fw-bold text-gray-800 me-2 lh-1 pl-2" style="padding: 10px"> Admins </h1>
                 <div class="card-header border-0 pt-6">
                     <!--begin::Card title-->
                     <div class="card-title">
@@ -124,7 +124,7 @@
                                         <rect x="4.36396" y="11.364" width="16" height="2"
                                             rx="1" fill="currentColor" />
                                     </svg></span>
-                                Add Vendor
+                                Add Admin
                             </button>
                         </div>
 
@@ -259,7 +259,7 @@
                                     <!--begin::Modal header-->
                                     <div class="modal-header" id="kt_modal_add_user_header">
                                         <!--begin::Modal title-->
-                                        <h2 class="fw-bolder">Add Vendor</h2>
+                                        <h2 class="fw-bolder">Add Admin</h2>
 
                                         <div class="btn btn-icon btn-sm btn-active-icon-primary"
                                             data-kt-users-modal-action="close" style="display: none">

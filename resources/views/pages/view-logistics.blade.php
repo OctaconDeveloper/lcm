@@ -109,7 +109,7 @@
                                 </div>
                             </div>
 
-                            @if (auth()->user()->role != 'admin')
+                            {{-- @if (auth()->user()->role != 'admin') --}}
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#kt_modal_add_user">
                                     <span class="svg-icon svg-icon-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -122,7 +122,7 @@
                                         </svg></span>
                                     Add Shippment
                                 </button>
-                            @endif
+                            {{-- @endif --}}
                         </div>
 
 
@@ -336,7 +336,7 @@
                                                     View
                                                 </a>
                                             </div>
-                                            @if (auth()->user()->role != 'admin')
+                                            {{-- @if (auth()->user()->role != 'admin') --}}
                                                 @if (auth()->user()->unit->id == $shipment->end_unit)
                                                     @if ($shipment->status == 'pending' || $shipment->status == 'processing')
                                                         <div class="menu-item px-3">
@@ -353,7 +353,7 @@
                                                         </div>
                                                     @endif
                                                 @endif
-                                            @endif
+                                            {{-- @endif --}}
                                         </div>
                                     </td>
                             @endforeach
