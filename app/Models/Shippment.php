@@ -11,11 +11,11 @@ class Shippment extends Model
     protected $guarded = ['id'];
 
     protected function startunit() {
-        return $this->belongsTo(Unit::class, 'start_unit');
+        return $this->belongsTo(Vendor::class, 'start_unit');
     }
 
     protected function endunit() {
-        return $this->belongsTo(Unit::class, 'end_unit');
+        return $this->belongsTo(Deport::class, 'end_unit');
     }
 
     protected function category() {

@@ -2,9 +2,11 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\DeportController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ShippmentController;
 use App\Http\Controllers\UnitController;
+use App\Http\Controllers\VendorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,8 +20,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () { return view('signup'); })->name('index');
-// Route::get('/', function () { return view('signin'); })->name('index');
+// Route::get('/', function () { return view('signup'); })->name('index');
+Route::get('/', function () { return view('signin'); })->name('index');
 
 Route::get('/register', function () { return view('signup');});
 
@@ -47,6 +49,14 @@ Route::prefix('api')->group( function () {
     Route::get('/approve-shippment/{id}', [ShippmentController::class, 'approve']);
     Route::get('/reject-shippment/{id}', [ShippmentController::class, 'reject']);
 
+
+    Route::post('/add-deport', [DeportController::class, 'store']);
+    Route::get('/delete-deport/{id}', [DeportController::class, 'delete']);
+
+
+    Route::post('/add-vendor', [VendorController::class, 'store']);
+    Route::get('/delete-vendor/{id}', [VendorController::class, 'delete']);
+    
     
 
 });
@@ -65,6 +75,14 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/view-logistics',  [PagesController::class, 'viewLogistics']);
     Route::get('/view-logistic/{user_id}',  [PagesController::class, 'viewLogistic']);
+
+
+    Route::get('/view-deports',  [PagesController::class, 'viewDeports']);
+    Route::get('/view-deport/{id}',  [PagesController::class, 'ViewDeport']);
+
+
+    Route::get('/view-vendors',  [PagesController::class, 'viewVendors']);
+    Route::get('/view-vendors/{id}',  [PagesController::class, 'viewVendor']);
 
     
 

@@ -4,30 +4,29 @@
         <div class="container-xxl" id="kt_content_container">
             <div class="d-flex flex-column flex-lg-row">
                 <div class="flex-lg-row-fluid ms-lg-15">
-                    @if ($shipment->status == 'pending' || $shipment->status == 'processing')
-                        <ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-8">
-                            @if (auth()->user()->unit->id == $shipment->end_unit)
-                                <li class="nav-item ms-auto">
-                                    <a href="/api/approve-shippment/{{ encrypt_data($shipment->id) }}"
-                                        class="btn btn-success ps-7" data-kt-menu-trigger="click"
-                                        data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-                                        Approve
-                                    </a>
-                                    <a href="/api/reject-shippment/{{ encrypt_data($shipment->id) }}"
-                                        class="btn btn-danger ps-7" data-kt-menu-trigger="click"
-                                        data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-                                        Reject
-                                    </a>
-                                </li>
-                            @else
-                                <a href="#" class="btn btn-primary ps-7" data-kt-menu-trigger="click"
-                                    data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end"
-                                    style="float:right !important">
-                                    Shippment {{ $shipment->status }}
+
+                    <ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-8">
+                        @if ($shipment->status == 'pending' || $shipment->status == 'processing')
+                            <li class="nav-item ms-auto">
+                                <a href="/api/approve-shippment/{{ encrypt_data($shipment->id) }}"
+                                    class="btn btn-success ps-7" data-kt-menu-trigger="click" data-kt-menu-attach="parent"
+                                    data-kt-menu-placement="bottom-end">
+                                    Approve
                                 </a>
-                            @endif
-                        </ul>
-                    @endif
+                                <a href="/api/reject-shippment/{{ encrypt_data($shipment->id) }}"
+                                    class="btn btn-danger ps-7" data-kt-menu-trigger="click" data-kt-menu-attach="parent"
+                                    data-kt-menu-placement="bottom-end">
+                                    Reject
+                                </a>
+                            </li>
+                        @else
+                            <a href="#" class="btn btn-primary ps-7" data-kt-menu-trigger="click"
+                                data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end"
+                                style="float:right !important">
+                                Movement {{ $shipment->status }}
+                            </a>
+                        @endif
+                    </ul>
 
                     <div class="tab-content" id="myTabContent">
 
@@ -104,9 +103,9 @@
                                             </div>
                                             <div class="row col-12">
                                                 <div class="fv-row mb-7 col-6">
-                                                    <label class="required fs-6 fw-bold form-label mb-2">Origin</label>
+                                                    <label class="required fs-6 fw-bold form-label mb-2">Vendor</label>
                                                     <input type="text" class="form-control form-control-solid"
-                                                        value="{{ ucfirst($shipment->startunit->name) }} ( {{ ucfirst($shipment->startunit->div) }})"
+                                                        value="{{ ucfirst($shipment->startunit->name) }}"
                                                         readonly />
                                                 </div>
                                                 <div class="fv-row mb-7 col-6">
@@ -118,9 +117,9 @@
                                             </div>
                                             <div class="row col-12">
                                                 <div class="fv-row mb-7 col-6">
-                                                    <label class="required fs-6 fw-bold form-label mb-2">Destination</label>
+                                                    <label class="required fs-6 fw-bold form-label mb-2">Deport</label>
                                                     <input type="text" class="form-control form-control-solid"
-                                                        value="{{ ucfirst($shipment->endunit->name) }} ( {{ ucfirst($shipment->endunit->div) }})"
+                                                        value="{{ ucfirst($shipment->endunit->name) }} ( {{ ucfirst($shipment->endunit->unit->div) }})"
                                                         readonly />
                                                 </div>
                                                 <div class="fv-row mb-7 col-6">

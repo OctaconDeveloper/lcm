@@ -52,7 +52,7 @@
                                 </div>
                                 @if(auth()->user()->role == 'admin')
                                     <div class="menu-item py-2">
-                                        <a class="menu-link menu-center row  @if(request()->path() == 'view-admins') active @endif" href="/view-admins" title="NA Vendors" data-bs-toggle="tooltip" data-bs-placement="right">
+                                        <a class="menu-link menu-center row  @if(request()->path() == 'view-admins') active @endif" href="/view-admins" title="Admins" data-bs-toggle="tooltip" data-bs-placement="right">
                                             {{-- <span class="menu-icon me-0"> --}}
                                                 {{-- <span class="svg-icon svg-icon-2x"> --}}
 
@@ -72,26 +72,6 @@
                                         </a>
                                     </div>
                                 @endif
-                                    <div class="menu-item py-2">
-                                        <a class="menu-link menu-center row  @if(request()->path() == 'view-vendors') active @endif" href="/view-vendors" title="NA Vendors" data-bs-toggle="tooltip" data-bs-placement="right">
-                                            {{-- <span class="menu-icon me-0"> --}}
-                                                {{-- <span class="svg-icon svg-icon-2x"> --}}
-
-                                            <span>NA Vendors</span>
-                                                    {{-- <svg xmlns="http://www.w3.org/2000/svg"
-                                                        width="24" height="24" viewBox="0 0 24 24"
-                                                        fill="none">
-                                                        <path
-                                                            d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z"
-                                                            fill="currentColor" />
-                                                        <rect opacity="0.3" x="8" y="3"
-                                                            width="8" height="8" rx="4"
-                                                            fill="currentColor" />
-                                                    </svg> --}}
-                                                {{-- </span> --}}
-                                            {{-- </span> --}}
-                                        </a>
-                                    </div>
                                 <div class="menu-item py-2">
                                     <a class="menu-link menu-center   @if(request()->path() == 'view-units') active @endif" href="/view-units" title="View Units" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         {{-- <span class="menu-icon me-0"> --}}
@@ -121,9 +101,30 @@
                                 </div>
 
                                 <div class="menu-item py-2">
-                                    <a class="menu-link menu-center @if(request()->path() == 'view-categories') active @endif" href="/view-categories" title="Materials" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link menu-center row  @if(request()->path() == 'view-vendors') active @endif" href="/view-vendors" title="NA Vendors" data-bs-toggle="tooltip" data-bs-placement="right">
                                         {{-- <span class="menu-icon me-0"> --}}
-                                            <span>Materials</span>
+                                            {{-- <span class="svg-icon svg-icon-2x"> --}}
+
+                                        <span>NA Vendors</span>
+                                                {{-- <svg xmlns="http://www.w3.org/2000/svg"
+                                                    width="24" height="24" viewBox="0 0 24 24"
+                                                    fill="none">
+                                                    <path
+                                                        d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z"
+                                                        fill="currentColor" />
+                                                    <rect opacity="0.3" x="8" y="3"
+                                                        width="8" height="8" rx="4"
+                                                        fill="currentColor" />
+                                                </svg> --}}
+                                            {{-- </span> --}}
+                                        {{-- </span> --}}
+                                    </a>
+                                </div>
+
+                                <div class="menu-item py-2">
+                                    <a class="menu-link menu-center @if(request()->path() == 'view-categories') active @endif" href="/view-categories" title="Materiel" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                        {{-- <span class="menu-icon me-0"> --}}
+                                            <span>Materiel</span>
                                             {{-- <span class="svg-icon svg-icon-2x">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
                                                     width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -144,9 +145,9 @@
 
 
                                 <div class="menu-item py-2">
-                                    <a class="menu-link menu-center  @if(request()->path() == 'view-logistics') active @endif" href="/view-logistics" title="View Shippments" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link menu-center  @if(request()->path() == 'view-logistics') active @endif" href="/view-logistics" title="View Movements" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         {{-- <span class="menu-icon me-0"> --}}
-                                            <span>Shippments</span>
+                                            <span>Movements</span>
                                             {{-- <span class="svg-icon svg-icon-2x">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path opacity="0.3" d="M20 15H4C2.9 15 2 14.1 2 13V7C2 6.4 2.4 6 3 6H21C21.6 6 22 6.4 22 7V13C22 14.1 21.1 15 20 15ZM13 12H11C10.5 12 10 12.4 10 13V16C10 16.5 10.4 17 11 17H13C13.6 17 14 16.6 14 16V13C14 12.4 13.6 12 13 12Z" fill="currentColor"></path>
