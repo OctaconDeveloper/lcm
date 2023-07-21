@@ -100,7 +100,7 @@
 
                                                 <div class="row col-12">
                                                     <div class="fv-row mb-7 col-6">
-                                                        <label class="required fw-bold fs-6 mb-2">Materiel</label>
+                                                        <label class="required fw-bold fs-6 mb-2">Types of Materiel</label>
                                                         <select name="category" data-control="select2"
                                                             class="form-select form-select-solid"
                                                             data-dropdown-parent="#kt_modal_add_user">

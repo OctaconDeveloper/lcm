@@ -75,7 +75,7 @@
                                 <div class="menu-item py-2">
                                     <a class="menu-link menu-center   @if(request()->path() == 'view-units') active @endif" href="/view-units" title="View Units" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         {{-- <span class="menu-icon me-0"> --}}
-                                            <span>NA Units</span>
+                                            <span>NA Units/Formations</span>
                                             {{-- <span class="svg-icon svg-icon-2x">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path opacity="0.3" d="M11 6.5C11 9 9 11 6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5ZM17.5 2C15 2 13 4 13 6.5C13 9 15 11 17.5 11C20 11 22 9 22 6.5C22 4 20 2 17.5 2ZM6.5 13C4 13 2 15 2 17.5C2 20 4 22 6.5 22C9 22 11 20 11 17.5C11 15 9 13 6.5 13ZM17.5 13C15 13 13 15 13 17.5C13 20 15 22 17.5 22C20 22 22 20 22 17.5C22 15 20 13 17.5 13Z" fill="currentColor"></path>
@@ -89,7 +89,7 @@
                                 <div class="menu-item py-2">
                                     <a class="menu-link menu-center   @if(request()->path() == 'view-deports') active @endif" href="/view-deports" title="View Deports" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         {{-- <span class="menu-icon me-0"> --}}
-                                            <span>NA Deports</span>
+                                            <span>NA Ordance Depot</span>
                                             {{-- <span class="svg-icon svg-icon-2x">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path opacity="0.3" d="M11 6.5C11 9 9 11 6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5ZM17.5 2C15 2 13 4 13 6.5C13 9 15 11 17.5 11C20 11 22 9 22 6.5C22 4 20 2 17.5 2ZM6.5 13C4 13 2 15 2 17.5C2 20 4 22 6.5 22C9 22 11 20 11 17.5C11 15 9 13 6.5 13ZM17.5 13C15 13 13 15 13 17.5C13 20 15 22 17.5 22C20 22 22 20 22 17.5C22 15 20 13 17.5 13Z" fill="currentColor"></path>
@@ -122,9 +122,9 @@
                                 </div>
 
                                 <div class="menu-item py-2">
-                                    <a class="menu-link menu-center @if(request()->path() == 'view-categories') active @endif" href="/view-categories" title="Materiel" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link menu-center @if(request()->path() == 'view-categories') active @endif" href="/view-categories" title="Types of Materiel" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         {{-- <span class="menu-icon me-0"> --}}
-                                            <span>Materiel</span>
+                                            <span>Types of Materiel</span>
                                             {{-- <span class="svg-icon svg-icon-2x">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
                                                     width="24" height="24" viewBox="0 0 24 24" fill="none">

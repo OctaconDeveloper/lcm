@@ -185,7 +185,7 @@
                             <div class="card-header pt-7 mb-5">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bolder text-gray-800">Movements by Materiel </span>
+                                    <span class="card-label fw-bolder text-gray-800">Movements of Materiel </span>
                                 </h3>
                             </div>
                             <!--end::Header-->
