@@ -16,8 +16,8 @@
                     <div class="card-header pt-7">
                         <!--begin::Title-->
                         <h3 class="card-title align-items-start flex-column">
-                            <span class="card-label fw-bolder text-gray-800">Shipment History</span>
-                            <span class="text-gray-400 mt-1 fw-bold fs-6">{{ $shipments->count() }} Shipments</span>
+                            <span class="card-label fw-bolder text-gray-800">Movement History</span>
+                            <span class="text-gray-400 mt-1 fw-bold fs-6">{{ $shipments->count() }} Movements</span>
                         </h3>
                         <!--end::Title-->
 
