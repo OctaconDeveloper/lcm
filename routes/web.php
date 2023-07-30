@@ -20,8 +20,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () { return view('signup'); })->name('index');
-Route::get('/', function () { return view('signin'); })->name('index');
+Route::get('/', function () { return view('signup'); })->name('index');
+// Route::get('/', function () { return view('signin'); })->name('index');
 
 Route::get('/register', function () { return view('signup');});
 
