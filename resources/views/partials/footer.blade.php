@@ -9,10 +9,10 @@
 </div>
 
 
-<script src="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/scripts.bundle.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/plugins/global/plugins.bundle.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/scripts.bundle.js"></script>
 
-<script src="https://lcm.up.railway.app/assets/plugins/custom/vis-timeline/vis-timeline.bundle.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/plugins/custom/vis-timeline/vis-timeline.bundle.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
@@ -27,22 +27,22 @@
 <!--end::Page Vendors Javascript-->
 
 <!--begin::Page Custom Javascript(used by this page)-->
-<script src="https://lcm.up.railway.app/assets/js/widgets.bundle.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/widgets.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/intro.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/widgets.bundle.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/widgets.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/intro.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
 <!--end::Page Custom Javascript-->
 
 
 
 
-<script src="https://lcm.up.railway.app/assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/apps/user-management/users/list/table.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/apps/user-management/users/list/export-users.js"></script>
-<script src="https://lcm.up.railway.app/assets/js/custom/apps/user-management/users/list/add.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/apps/user-management/users/list/table.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/apps/user-management/users/list/export-users.js"></script>
+<script src="https://lcm-62f517d95952.herokuapp.com/assets/js/custom/apps/user-management/users/list/add.js"></script>
 

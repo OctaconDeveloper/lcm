@@ -5,20 +5,20 @@
 <head>
     <title>{{ env('APP_NAME') }}</title>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="https://lcm.up.railway.app/assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="https://lcm-62f517d95952.herokuapp.com/assets/media/logos/favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
 
-    <link href="https://lcm.up.railway.app/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="https://lcm.up.railway.app/assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet"
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet"
         type="text/css" />
-    <link href="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="https://lcm.up.railway.app/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="https://lcm.up.railway.app/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet"
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet"
         type="text/css" />
 
-    <link href="https://lcm.up.railway.app/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="https://lcm.up.railway.app/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://lcm-62f517d95952.herokuapp.com/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
     
 
